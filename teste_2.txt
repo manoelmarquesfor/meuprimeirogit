@@ -1,2 +1,0 @@
-Esse teste vou mudar a parte do commit, vou usar o git add [nome do arquivo]
-
