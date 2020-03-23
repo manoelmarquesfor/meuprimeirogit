@@ -1,0 +1,13 @@
+Passos para criar uma feature
+
+1º Dar o comando "git flow feature start nomedafeature"
+2º Verificar se realmente esta na branch feature com o comando "git branch" se estiver no branch continuar
+3º Fazer a feature(alteracao necessarias) e depois dar um commit.
+4º Fazer o commit usar o comando "git add ."(para adicionar todos os arquivos modificados de uma so vez) ou "git add [nome do arquivo] "  depois usar o comando "git commit -m 'comentarioparamarcarmodificacao' "
+5º Apos fazer a feature e os commit necessarios encerrar a feature.
+6º Dar o comando " git flow feature finish nomedafeature" para encerrar a feature
+
+Utilizar a feature quando for adicionar uma nova funcionalidade no projeto, dando um merge no develop.
+Para dar um merge no develop usar o comando "git push origin develop", assim oq foi feito na feature sera atualizado no develop.
+Apos dar o push usar o "git pull origin develop" para manter sempre atualizado a versao local e a versao no git
+
