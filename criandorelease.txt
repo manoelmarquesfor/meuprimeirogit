@@ -1,4 +1,8 @@
 1º Dar o comando "git flow release start 'versaodarelease'"
 2º Dar o comando "git flow release publish 'versaodarelease'"
 3º Dar o comit 
-4º Encerra a release com o comando "git flow release finish 'versaodarelease'" 
+4º Encerra a release com o comando "git flow release finish 'versaodarelease'"
+
+++testando hotfix(correcao de bug)
+
+ 
