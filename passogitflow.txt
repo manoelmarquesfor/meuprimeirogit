@@ -1,0 +1,19 @@
+Passos para criar um projeto com  git flow
+
+1º Criar repositorio no git
+2º Criar pasta na maquina local de preferencia com o mesmo nome do repositorio do git
+3º Entrar na pasta do local que foi criada na etapa 2
+4º Dar o comando "git flow init" e usar os parametros padrao(somente ir dando enter)
+5º Verificar que os Branch "Master" e 'Develop" estao criados
+6º Adicionar o repositorio remoto criado no git com o comando "git remote add origin https://github.com/nomedousuario/repositorio.git"
+7º Dar o um git push no "Master" e no "develop" usando o comando "git push origin master" para criar o branch "Master" e "git push origin develop" para criar o branch "develop" ao dar o git push sera pedido nome de usuario e senha do git.
+
+Parte principal do git flow esta criado
+
+
+Atualizar repositorios
+
+Para atualizar a versao local usar o pull e para atualizar a versao do git usar o push. ex comandos: "git pull origin develop", "git push origin develop".
+
+CUIDADO AO UTILIZAR O COMANDO PARA ATUALIZAR OS REPOSITORIOS.
+
